@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+:root { color-scheme: dark; }
+html, body {
+  margin: 0; width: 100%; min-height: 100%; background: #0a0c12; color: #edf2ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+body { min-height: 100dvh; display: flex; justify-content: center; }
+#game-shell { width: min(100%, 1000px); padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+header { padding: 8px 4px 2px; }
+.brand { font-size: clamp(20px, 4vw, 30px); font-weight: 900; letter-spacing: .12em; color: #8cecff; }
+.subtitle { font-size: 11px; color: #a4abc2; letter-spacing: .1em; margin-top: 5px; }
+#game { width: 100%; overflow: hidden; border: 1px solid #343e5b; border-radius: 8px; background: #11182a; }
+#game canvas { display: block; width: 100% !important; height: auto !important; image-rendering: pixelated; touch-action: none; }
+footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px 12px; font-size: 11px; color: #a4abc2; padding: 0 3px; }
+.mobile-controls { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 4px 0 12px; }
+.move-buttons, .action-buttons { display: flex; gap: 8px; }
+button {
+  min-width: 54px; min-height: 48px; border: 1px solid #52658f; border-radius: 8px;
+  background: #1a2440; color: #eaf8ff; font: 700 12px ui-monospace, monospace;
+  touch-action: none; user-select: none; -webkit-user-select: none;
+}
+button:active { background: #31527a; transform: translateY(1px); }
+#jump { background: #164e62; border-color: #4bd8f5; }
+#dash { background: #48285c; border-color: #d18bff; }
+@media (min-width: 760px) {
+  #game-shell { padding: 22px; }
+  .mobile-controls { max-width: 460px; }
+}

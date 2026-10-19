@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#10131d">
+  <title>Cyberfantasia — Prototype</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
+</head>
+<body>
+  <main id="game-shell">
+    <header>
+      <div class="brand">CYBERFANTASIA</div>
+      <div class="subtitle">NEXUSCORE-12 // MOVEMENT TEST</div>
+    </header>
+    <div id="game"></div>
+    <footer>
+      <span>Move: A/D or ←/→</span>
+      <span>Jump: Space / W / ↑</span>
+      <span>Dash: Shift / X</span>
+    </footer>
+    <div class="mobile-controls" aria-label="Touch controls">
+      <div class="move-buttons">
+        <button id="left" aria-label="Move left">◀</button>
+        <button id="right" aria-label="Move right">▶</button>
+      </div>
+      <div class="action-buttons">
+        <button id="dash" aria-label="Dash">DASH</button>
+        <button id="jump" aria-label="Jump">JUMP</button>
+      </div>
+    </div>
+  </main>
+  <script src="src/main.js"></script>
+</body>
+</html>

@@ -1,47 +1,42 @@
-# Cyberfantasia
-CYBERFANTASIA
+# CYBERFANTASIA
 
-A 2D Pixel-Art RPG with Advanced Movement
+**A 2D Pixel-Art RPG with Advanced Movement**
 
-About
+## About
+Cyberfantasia is a browser-based 2D pixel-art RPG combining role-playing elements with advanced movement mechanics.
 
-Cyberfantasia is a browser-based 2D pixel-art RPG that combines role-playing elements with advanced movement mechanics.
+## Current Prototype
+- NexusCore-12 placeholder character
+- Platform collision and jumping
+- Keyboard and mobile touch controls
+- Dash with a short cooldown
+- Small test zone with platforms
 
-Story
+## Controls
+- Move: `A` / `D` or arrow keys
+- Jump: `Space` / `W` / `Up`
+- Dash: `Shift` / `X`
+- Restart scene: `R`
+- On mobile: use the on-screen buttons
 
-In the year 2120, Nexus Corporation, a futuristic multinational company, successfully creates a portal to another world.
+## Run locally
+Open `index.html` in a browser with an internet connection. Phaser is loaded from a CDN.
 
-However, the world beyond the portal is a brutal fantasy realm filled with dangerous monsters and hostile kingdoms. The opening of the portal leads to chaos and war.
+## Publish on GitHub Pages
+1. Upload the project files to the root of your GitHub repository.
+2. Open repository **Settings → Pages**.
+3. Under build/deployment, choose **Deploy from a branch**.
+4. Select the `main` branch and `/ (root)`, then save.
+5. Wait for the published site link to appear.
 
-To fight these threats, Nexus Corporation deploys NexusCore, a force of semi-organic robotic combat units powered by artificial intelligence.
+## Development Status
+Early prototype. Art is placeholder geometry and should be replaced with original pixel-art assets.
 
-But behind their artificial identities lies a disturbing secret.
-
-Protagonist
-
-NexusCore-12
-
-One of the NexusCore combat units, forced to return to battle even after death through the transfer of consciousness into a new robotic body.
-
-Planned Features
-
-- Advanced movement mechanics
-- RPG progression and exploration
-- Combat and dangerous enemies
-- Pixel-art environments
-- Story-driven worldbuilding
-
-Technology
-
-- Chatgpt
-- ClaudeAI
-- Phaser
-- GitHub
-
-Development Status
-
-Early development — project setup and gameplay prototyping.
-
----
+## Technology
+- HTML5
+- CSS
+- JavaScript
+- Phaser 3
+- GitHub Pages
 
 Cyberfantasia is an independently developed game project.
